@@ -8,14 +8,23 @@ import org.springframework.web.bind.annotation.RestController;
 // import java.lang.Thread;
 
 @SpringBootApplication
+@Controller
+@RequestMapping("/cat/message")
 public class HelloworldApplication {
+    private static Logger logger = Logger.getLogger(HelloworldApplication.class);
 
     @RestController
     class HelloworldController {
-         @GetMapping("/cat/message")
-          String hello() {
-             return "欢迎使用微信云托管！";
-          }
+        @RequestMapping(value = "security", method = RequestMethod.GET)
+        public void doGet(HttpServletRequest request, HttpServletResponse response) {
+            System.out.println("这是get方法！");
+        }
+
+        @RequestMapping(value = "security", method = RequestMethod.POST)
+        // post方法用于接收微信服务端消息
+        public void DoPost() {
+            System.out.println("这是post方法！");
+        }
     }
 
 	public static void main(String[] args) {
