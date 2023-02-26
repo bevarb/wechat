@@ -12,7 +12,7 @@ public class HelloworldApplication {
 
     @RestController
     class HelloworldController {
-         @GetMapping("/")
+         @GetMapping("/cat/message")
           String hello() {
              return "欢迎使用微信云托管！";
           }

@@ -46,12 +46,23 @@
       <option name="presentableId" value="Default" />
       <updated>1677340543687</updated>
       <workItem from="1677340546359" duration="1959000" />
-      <workItem from="1677404709859" duration="3271000" />
+      <workItem from="1677404709859" duration="4523000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
