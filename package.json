@@ -11,5 +11,5 @@
   "dependencies": {
     "express": "^4.16.4"
   },
-  "private": false
+  "private": true
 }
