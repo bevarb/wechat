@@ -15,7 +15,7 @@ public class HelloworldApplication {
     @RestController
     class HelloworldController {
         @RequestMapping(value = "security", method = RequestMethod.GET)
-        public void doGet(HttpServletRequest request, HttpServletResponse response) {
+        public void doGet() {
             System.out.println("这是get方法！");
         }
 
