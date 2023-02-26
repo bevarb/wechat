@@ -9,17 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @Controller
-@RequestMapping("/cat/message")
+@GetMapping("/cat/message")
 public class HelloworldApplication {
 
     @RestController
     class HelloworldController {
-        @RequestMapping(value = "security", method = RequestMethod.GET)
+        @GetMapping(value = "security", method = RequestMethod.GET)
         public void doGet() {
             System.out.println("这是get方法！");
         }
 
-        @RequestMapping(value = "security", method = RequestMethod.POST)
+        @GetMapping(value = "security", method = RequestMethod.POST)
         // post方法用于接收微信服务端消息
         public void DoPost() {
             System.out.println("这是post方法！");
