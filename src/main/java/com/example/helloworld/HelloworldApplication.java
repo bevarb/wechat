@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 @RequestMapping("/cat/message")
 public class HelloworldApplication {
-    private static Logger logger = Logger.getLogger(HelloworldApplication.class);
 
     @RestController
     class HelloworldController {
